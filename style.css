@@ -1,0 +1,182 @@
+body{
+    line-height: 1;
+}
+.background-img{
+    background: url(./IMG_5274.jpg)  no-repeat center / cover;
+    height: 120vh;
+    position: relative;
+}
+header{
+    font-family: monospace;
+    padding: 20px 70px;
+    display: flex;
+}
+
+.heading-block{
+    text-align: center;
+    font-family: monospace;
+    color: rgba(128,128,128,0.5);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading-block h1{
+    font-size: 120px;
+    width: 900px;
+}
+
+.heading-block p{
+    font-size: 27px;
+    margin-top: 30px;
+}
+
+.block-section{
+    margin: 0 70px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+h2{
+    font-family: monospace;
+    color: rgba(128,128,128,0.5);
+    font-size: 50px;
+    padding: 50px 30px;
+    /* margin-bottom: 70x; */
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    background: url(./IMG_1203.jpg)  no-repeat center / cover;
+    margin: 0 30px;
+    padding: 120px 49px;
+    color: gainsboro;
+
+}
+
+.card1{
+    background: url(./IMG_0915.JPG)  no-repeat center / cover;
+    margin: 0 30px;
+    padding: 100px 50px;
+    color: gainsboro;
+
+}
+
+.card2{
+    background: url(./IMG_0734.jpg)  no-repeat center / cover;
+    margin: 0 30px;
+    padding: 100px 50px;
+    color: gainsboro;
+
+}
+
+.card-title {
+    font-family: monospace;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#ME img{
+    height: 550px;
+    width: auto;
+}
+
+.name {
+    font-family: monospace;
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.description{
+    margin-left: 50px;
+    padding: 89px 0;
+    text-align: center;
+}
+
+footer{
+    font-family: monospace;
+    text-align: center;
+    padding: 25px;
+    margin-top: 230px;
+    background-color: rgba(128,128,128,0.5);;
+    color: white;
+}
+
+@media screen and (max-width: 780px) {
+    heading-block{
+        position: absolute;
+        top: 15%;
+        left: 30%;
+        transform: translateX(-30%);
+    }
+
+    .description{
+        margin-left: auto;
+        padding: 89px 0;
+        text-align: center;
+    }
+
+    .heading-block h1{
+        font-size: 60px;
+        width: 500px;
+    }
+
+    .heading-block p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .container{
+        display: block;
+
+    }
+
+    h2{
+        font-size: 50px;
+    }
+
+    .name{
+        font-size: 45px;
+    }
+
+    p{
+        font-size: 10px;
+    }
+
+    .card{
+
+        text-align: center;
+        width: auto;
+        height: 100%;
+    }
+
+    .card1{
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+        height: 100%;
+    }
+
+    .card2{
+        text-align: center;
+        margin-top: 20px;
+        width: auto;
+        height: 100%;
+    }
+
+    .background-img{
+        display: block;
+    }
+
+}
+
+
